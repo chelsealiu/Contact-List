@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8324D77719218EB50045FD4B /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 8324D77619218EB50045FD4B /* Contact.m */; };
 		F5D2CB08191B135400A45A14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D2CB07191B135400A45A14 /* Foundation.framework */; };
 		F5D2CB0B191B135400A45A14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CB0A191B135400A45A14 /* main.m */; };
 		F5D2CB0F191B135400A45A14 /* ContactList.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5D2CB0E191B135400A45A14 /* ContactList.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8324D77519218EB50045FD4B /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		8324D77619218EB50045FD4B /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 		F5D2CB04191B135400A45A14 /* ContactList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ContactList; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D2CB07191B135400A45A14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5D2CB0A191B135400A45A14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				F5D2CB0A191B135400A45A14 /* main.m */,
+				8324D77519218EB50045FD4B /* Contact.h */,
+				8324D77619218EB50045FD4B /* Contact.m */,
 				F5D2CB0E191B135400A45A14 /* ContactList.1 */,
 				F5D2CB0C191B135400A45A14 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8324D77719218EB50045FD4B /* Contact.m in Sources */,
 				F5D2CB0B191B135400A45A14 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +259,7 @@
 				F5D2CB14191B135400A45A14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
