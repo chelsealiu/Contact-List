@@ -2,7 +2,6 @@
 //  main.m
 //  ContactList
 //
-//  Created by Aaron Dufall on 7/05/2014.
 //  Copyright (c) 2014 Lighthouse Labs. All rights reserved.
 //
 
