@@ -15,7 +15,6 @@ int main(int argc, const char * argv[])
         
         char str [100];
 
-
         NSLog(@"Welcome to the app. What's next?");
         NSLog(@" new      - Create a new contact");
         NSLog(@" list     - List all contacts");
@@ -29,4 +28,3 @@ int main(int argc, const char * argv[])
     }
     return 0;
 }
-
