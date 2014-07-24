@@ -9,7 +9,7 @@ Week 1 Day 4 - Assignment
 
 **Repository:** Fork the repository for this project.
 
-**Duration:** You should aim to have your app completed by the end of tomorrow. It is a _two day_ project.
+**Duration:** This is a longer project; do what you can with the time you have, and don't worry too much.
 
 **Reminders & Tips:**
 * If you restart your app, all the contacts will be lost
