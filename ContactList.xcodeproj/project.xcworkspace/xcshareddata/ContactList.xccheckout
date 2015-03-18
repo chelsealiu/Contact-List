@@ -10,31 +10,31 @@
 	<string>ContactList</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>ED4A0E03396036CCF7E1E73E9E88CB3EE3EFBE49</key>
-		<string>https://github.com/coryalder/iOS-Student-Contact-List.git</string>
+		<key>D612EF87-5CEC-4946-BBBD-E7683C407F0B</key>
+		<string>ssh://github.com/lighthouse-labs/iOS-Contact-List.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ContactList.xcodeproj</string>
+	<string>ContactList.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>ED4A0E03396036CCF7E1E73E9E88CB3EE3EFBE49</key>
+		<key>D612EF87-5CEC-4946-BBBD-E7683C407F0B</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/coryalder/iOS-Student-Contact-List.git</string>
+	<string>ssh://github.com/lighthouse-labs/iOS-Contact-List.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>111</integer>
+	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>ED4A0E03396036CCF7E1E73E9E88CB3EE3EFBE49</string>
+	<string>D612EF87-5CEC-4946-BBBD-E7683C407F0B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>ED4A0E03396036CCF7E1E73E9E88CB3EE3EFBE49</string>
+			<string>D612EF87-5CEC-4946-BBBD-E7683C407F0B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iOS-Student-Contact-List</string>
+			<string>ContactList</string>
 		</dict>
 	</array>
 </dict>
