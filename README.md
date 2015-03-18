@@ -18,7 +18,7 @@ Week 1 Day 4 - Assignment
 
 ## Setup
 
-The project will be written in an Object Oriented way. Each contact will be represented by am instance of the `Contact` object. Similarly, the main application (responsible for user input and output) will be managed via main.m.
+The project will be written in an Object Oriented way. Each contact will be represented by am instance of the `Contact` object. The `Contact` objects will be organized by a `ContactList` object. The main application (responsible for user input and output) will be managed via main.m.
 
 ## Task Breakdown
 
@@ -39,7 +39,7 @@ If, on the main menu, the user inputs quit, then the app should break out of the
 
 ### Task 3: Implement contact creation (`new` command)
 
-If the user types in `new` into the prompt at the main menu, the command line app should further prompt the user for information about the contact they wish to create. Eg: take a full name and email (separately). These should be added to an (initially empty) array of contacts. The full name and the email should be input as separate strings as they will need to be output as such.
+If the user types in `new` into the prompt at the main menu, the command line app should further prompt the user for information about the contact they wish to create. Eg: take a full name and email (separately). These should be added to an (initially empty) array of contacts managed by a single `ContactList` object. The full name and the email should be input as separate strings as they will need to be output as such.
 
 Once a user has entered the data, the app should take them back to the main menu. Every time the user returns to the main menu, all the options of the main menu should be re-printed for the user to see all the available options.
 
@@ -47,7 +47,7 @@ Once a user has entered the data, the app should take them back to the main menu
 
 When on the main menu, the user can type in list to display a list of all contacts within the app, printed one on each line. Each line should be formatted as:
 
-   #: <first name> <last initial> (<email>)
+   #: <full name> (<email>)
 
 The number (#) should start with 0 and represents an index or unique ID for each contact. Once the contacts are printed out to the screen, the app should go back to the main menu.
 
@@ -68,7 +68,7 @@ Example use:
 
 ### Bonus 3: Prevent duplicate entries
 
-If a user tries to input the exact a contact with a the same email address twice, the app should output an error saying that the contact already exists and cannot be created. If you are asking for name first and then email, for a better user experience, it may make more sense to ask for their email first and then their name.
+If a user tries to input a contact with the exact same email address twice, the app should output an error saying that the contact already exists and cannot be created. If you are asking for name first and then email, for a better user experience, it may make more sense to ask for their email first and then their name.
 
 ### Bonus 4: Multiple phone numbers
 
@@ -78,4 +78,4 @@ Implement the ability to add contact’s phone numbers. Contacts can have a limi
 
 Save / load contact information from a plist.
 
-When the app starts, it will look for this file. If the file is there, it should load all the contacts from it. In order to do this in an OOP way, you should introduce a ContactDatabase class that is responsible for reading and writing this file. For simplicity, only read from this file once (when the apps starts) and only write to it once (when the user `quit`s the app).
+When the app starts, it will look for this file. If the file is there, it should load all the contacts from it. The `ContactList` class is responsible for reading and writing this file. For simplicity, only read from this file once (when the apps starts) and only write to it once (when the user `quit`s the app).

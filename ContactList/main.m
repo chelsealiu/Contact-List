@@ -6,11 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ContactList.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+        
+        ContactList *contactList = [[ContactList alloc] init];
         
         char str [100];
 
