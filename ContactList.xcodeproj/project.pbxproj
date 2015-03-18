@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8324D77719218EB50045FD4B /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 8324D77619218EB50045FD4B /* Contact.m */; };
+		8B5C0A3A1AB8F7FA005E04F5 /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C0A391AB8F7FA005E04F5 /* ContactList.m */; };
+		8B5C0A3C1AB90EA0005E04F5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C0A3B1AB90EA0005E04F5 /* README.md */; };
 		F5D2CB08191B135400A45A14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D2CB07191B135400A45A14 /* Foundation.framework */; };
 		F5D2CB0B191B135400A45A14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CB0A191B135400A45A14 /* main.m */; };
 		F5D2CB0F191B135400A45A14 /* ContactList.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5D2CB0E191B135400A45A14 /* ContactList.1 */; };
@@ -29,6 +31,9 @@
 /* Begin PBXFileReference section */
 		8324D77519218EB50045FD4B /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		8324D77619218EB50045FD4B /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		8B5C0A381AB8F7FA005E04F5 /* ContactList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
+		8B5C0A391AB8F7FA005E04F5 /* ContactList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
+		8B5C0A3B1AB90EA0005E04F5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		F5D2CB04191B135400A45A14 /* ContactList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ContactList; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D2CB07191B135400A45A14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5D2CB0A191B135400A45A14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,8 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				F5D2CB0A191B135400A45A14 /* main.m */,
+				8B5C0A381AB8F7FA005E04F5 /* ContactList.h */,
+				8B5C0A391AB8F7FA005E04F5 /* ContactList.m */,
 				8324D77519218EB50045FD4B /* Contact.h */,
 				8324D77619218EB50045FD4B /* Contact.m */,
+				8B5C0A3B1AB90EA0005E04F5 /* README.md */,
 				F5D2CB0E191B135400A45A14 /* ContactList.1 */,
 				F5D2CB0C191B135400A45A14 /* Supporting Files */,
 			);
@@ -144,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5C0A3A1AB8F7FA005E04F5 /* ContactList.m in Sources */,
 				8324D77719218EB50045FD4B /* Contact.m in Sources */,
+				8B5C0A3C1AB90EA0005E04F5 /* README.md in Sources */,
 				F5D2CB0B191B135400A45A14 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

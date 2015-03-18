@@ -8,7 +8,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Contact : NSObject
-+ (Contact *)createWithName:(NSString *)name email:(NSString *)email;
-+ (Contact *)findWithIndex:(int)index;
-+ (NSArray *)allContacts;
+
+@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *email;
+
 @end
