@@ -6,19 +6,23 @@
 //
 
 #import "Contact.h"
+#import "ContactList.h"
 
 @implementation Contact
 
 - (id)init {
 	self = [super init];
 	if ( self ) {
-		// Initalization Code
+        
+        
 	}
 	return self;
 }
 
 - (NSString *)description {
-	return @"";
+
+    NSString *myString = [[NSString alloc] initWithFormat:@"(name: %@, email: %@)", self.name, self.email];
+    return myString;
 }
 
 @end

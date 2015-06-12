@@ -15,5 +15,6 @@
 - (Contact *)addContactWithName:(NSString *)name email:(NSString *)email;
 - (Contact *)findWithIndex:(int)index;
 - (NSArray *)allContacts;
+- (NSMutableArray *)contacts;
 
 @end
